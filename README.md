@@ -28,9 +28,8 @@ Download latest release and use it.
 ## Attributes
 
 - `action` : If given, component will use Fetch API to POST image on saving
-  - Otherwise an `textarea` will be populated with Base64 JPEG to parent form
+  - Otherwise a `textarea` with given name will be populated with Base64 Data URL
 - `src` : Default image
-- `placeholder` : Replaces "No image chosen" -text.
 - `name` : Name for input.
 - `width` : Target width for image
 - `height` : Target height for image
