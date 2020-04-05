@@ -8,7 +8,7 @@ const outputFile = `${libraryName}.min.js`;
 
 
 module.exports = {
-  //mode: 'production',
+  mode: 'development',
   entry: './src/index.js',
   output: {
     library: libraryName,
