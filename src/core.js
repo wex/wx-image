@@ -237,9 +237,6 @@ class WxImage extends HTMLElement {
     fetch(this.attributes.action.value, {
       method: 'POST',
       credentials: 'same-origin',
-      headers: {
-        "Content-Type": "multipart/form-data",
-      },
       body: formData
     }).then(s => {
       this._image = true;
