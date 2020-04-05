@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Image Upload Widget</title>
+    <style>
+      wx-upload {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+
+    <form method="post" action="http://127.0.0.1/debug.php" enctype="multipart/form-data">
+      
+      <wx-image src="test.jpg" action="http://127.0.0.1/debug.php" name="pic"></wx-image>
+      <button name="save" value="1" type="submit">Test</button>
+    
+    </form>
+    
+    <script>
+      /*
+      let t = document.querySelector('wx-upload');
+      t.addEventListener('change', function(e) {
+        console.log(e);
+        console.log(e.detail);
+        console.log(this);
+      });
+      */
+    </script>
+
+
+  </body>
+</html>
